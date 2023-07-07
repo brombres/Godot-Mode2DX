@@ -3,8 +3,8 @@ A Godot node that allows a 3D scene to use a standard 2D coordinate system.
 
 About     | Current Release
 ----------|-----------------------
-Version   | 1.0
-Date      | July 5, 2023
+Version   | 1.1
+Date      | July 7, 2023
 Platform  | Godot 4
 License   | [MIT License](LICENSE)
 Author    | Brom Bresenham

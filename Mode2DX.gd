@@ -1,3 +1,7 @@
+# Mode2DX.gd
+# v1.1
+# July 7, 2023 by Brom Bresenham
+
 ## Mode2DX allows standard pixel coordinates to be used in a 3D scene. Add a Mode2DX node to the
 ## scene and assign the scene's Camera3D to it. The positions of children you add to Mode2DX are
 ## treated as pixel coordinates, with (0,0) being the top-left of the display. Two caveats: 1) Each
