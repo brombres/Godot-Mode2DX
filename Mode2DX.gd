@@ -5,9 +5,8 @@
 ## nodes's scale before using it in a computation (applies to X, Y, and Z scale components). Mode2DX
 ## makes itself a unique name so that other scripts can access it with '$%Mode2DX' AKA
 ## 'get_node("%Mode2DX")' (or whatever this node is renamed to).
-extends Node3D
-
 class_name Mode2DX
+extends Node3D
 
 ## Mode2DX receives the viewport's 'size_changed' signal and then updates the 2DX display settings
 ## before emitting the 'display_size_changed' signal. Connecting to this signal ensures that
