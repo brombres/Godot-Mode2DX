@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mode2DX</title>
+    <g id="Mode2DX" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FC7F7F" x="0" y="1" width="14" height="1"></rect>
+        <rect id="Rectangle-Copy-4" stroke="#FC7F7F" x="4.5" y="4.5" width="6" height="6"></rect>
+        <path d="" id="Rectangle-Copy-7" stroke="#FC7F7F" stroke-width="2"></path>
+        <path d="" id="Rectangle-Copy-8" stroke="#FC7F7F" stroke-width="2"></path>
+        <line x1="10.5" y1="10.5" x2="13.5" y2="13.5" id="Line" stroke="#FC7F7F" stroke-linecap="square"></line>
+        <polygon id="Rectangle-Copy-5" fill="#FC7F7F" points="13 7 14 8 14 14 13 14"></polygon>
+        <polygon id="Rectangle-Copy-6" fill="#FC7F7F" points="6 13 14 13 14 14 7 14"></polygon>
+        <rect id="Rectangle-Copy" fill="#FC7F7F" x="1" y="0" width="1" height="14"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FC7F7F" transform="translate(1.5, 5.5) scale(-1, 1) translate(-1.5, -5.5)" x="0" y="5" width="3" height="1"></rect>
+        <rect id="Rectangle-Copy-3" fill="#FC7F7F" transform="translate(1.5, 9.5) scale(-1, 1) translate(-1.5, -9.5)" x="0" y="9" width="3" height="1"></rect>
+        <rect id="Rectangle-Copy-10" fill="#FC7F7F" transform="translate(1.5, 13.5) scale(-1, 1) translate(-1.5, -13.5)" x="0" y="13" width="3" height="1"></rect>
+        <rect id="Rectangle-Copy-9" fill="#FC7F7F" transform="translate(5.5, 1.5) scale(-1, 1) translate(-5.5, -1.5)" x="5" y="0" width="1" height="3"></rect>
+        <rect id="Rectangle-Copy-11" fill="#FC7F7F" transform="translate(9.5, 1.5) scale(-1, 1) translate(-9.5, -1.5)" x="9" y="0" width="1" height="3"></rect>
+        <rect id="Rectangle-Copy-12" fill="#FC7F7F" transform="translate(13.5, 1.5) scale(-1, 1) translate(-13.5, -1.5)" x="13" y="0" width="1" height="3"></rect>
+    </g>
+</svg>
