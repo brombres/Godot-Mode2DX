@@ -30,13 +30,6 @@ Author    | Brom Bresenham
 
 # API
 
-## $%Mode2DX
-
-- `Mode2DX` configures itself to make its name unique to the scene.
-- In any script you can reference `$%Mode2DX` to retrieve the scene's `Mode2DX` node (equivalent to `get_node("%Mode2DX")`.
-- Consider saving a local reference to `Mode2DX` as an `@onready` variable to reduce the overhead of repeated calls to `get_node()`.
-- For example: `@onready var mode_2dx = $%Mode2DX`.
-
 ## Properties
 
 Name              | Type       | Default | Description

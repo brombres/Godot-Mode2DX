@@ -132,9 +132,17 @@ func _process( _dt ):
 
 func _ready():
 	_is_ready = true
-	unique_name_in_owner = true  # enable access using $%Mode2DX and get_node("%Mode2DX")
-	get_viewport().connect( "size_changed", _on_viewport_size_changed )
 	update_display_settings()
+
+func _enter_tree():
+	var viewport = get_viewport()
+	if viewport and not viewport.is_connected( "size_changed", _on_viewport_size_changed ):
+		viewport.connect( "size_changed", _on_viewport_size_changed )
+
+func _exit_tree():
+	var viewport = get_viewport()
+	if viewport and viewport.is_connected( "size_changed", _on_viewport_size_changed ):
+		viewport.disconnect( "size_changed", _on_viewport_size_changed )
 
 func _on_viewport_size_changed():
 	update_display_settings()

@@ -11,12 +11,8 @@ config_version=5
 [application]
 
 config/name="DemoProject"
-config/features=PackedStringArray("4.2")
+config/features=PackedStringArray("4.3")
 config/icon="res://icon.svg"
-
-[display]
-
-window/size/always_on_top=true
 
 [editor_plugins]
 
